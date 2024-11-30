@@ -1,1 +1,7 @@
 pymongo
+datetime
+faker
+random
+uuid
+textblob
+cassandra-driver
