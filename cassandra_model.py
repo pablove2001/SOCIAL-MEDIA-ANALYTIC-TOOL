@@ -353,11 +353,6 @@ class CassandraModel:
         except Exception as e:
             print(f"Error retrieving top shared posts: {str(e)}")
 
-    # 12. Video Completion Rate
-    def video_completion_rate(self):
-        # Not sure how to create this method, will most like work better with Dghraph
-        print("Video Completion Rate Analysis:.")
-
     def close_connection(self):
         if self.session:
             self.session.shutdown()
